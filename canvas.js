@@ -36,7 +36,7 @@ window.addEventListener('mousedown', (event) => {
     var rad = pr <= 2.5 ? pr : 1.5;
     if (circleArray.length<=Math.round(screen.width/10)) {
         circleArray.push(new Circle(x, y, dx, dy, rad)); 
-    }else{}
+    }
 });
 var canti = Math.round(screen.width/15);//cantidad de puntos
 function Circle(x, y, dx, dy, rad) {
